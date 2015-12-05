@@ -9,3 +9,15 @@ if [[ -f ~/.ssh/config ]]; then
 fi
 cp ./ssh_config ~/.ssh/config
 
+## zshrc
+if [[ -f ~/.zshrc ]]; then
+  mv ~/.zshrc ~/.zshrc.orig
+fi
+cp ./zshrc ~/.zshrc
+
+## vimrc
+if [[ -f ~/.vimrc ]]; then
+  mv ~/.vimrc ~/.vimrc.orig
+fi
+cp ./vimrc ~/.vimrc
+
