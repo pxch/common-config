@@ -1,0 +1,45 @@
+Host kiviuq
+  User pxcheng
+  HostName kiviuq.cs.utexas.edu
+Host sins-1
+	User pxcheng
+	HostName envy.cs.utexas.edu
+Host sins-2
+	User pxcheng
+	HostName gluttony.cs.utexas.edu
+Host sins-3
+	User pxcheng
+	HostName greed.cs.utexas.edu
+Host sins-4
+	User pxcheng
+	HostName lust.cs.utexas.edu
+Host sins-5
+	User pxcheng
+	HostName pride.cs.utexas.edu
+Host sins-6
+	User pxcheng
+	HostName sloth.cs.utexas.edu
+Host sins-7
+	User pxcheng
+	HostName wrath.cs.utexas.edu
+Host stampede
+    User pxcheng
+    HostName stampede.tacc.utexas.edu
+Host stampede1
+    User pxcheng
+    HostName login1.stampede.tacc.utexas.edu
+Host maverick
+    User pxcheng
+    HostName maverick.tacc.utexas.edu
+Host rustler
+    User pxcheng
+    HostName rustler.tacc.utexas.edu
+Host gerrit
+    User pxcheng
+    HostName gerrit.overt.org
+Host uvanimor-0
+    User pxcheng
+    HostName uvanimor-0.cs.utexas.edu
+Host streetpizza
+    User pxcheng
+    HostName streetpizza.cs.utexas.edu

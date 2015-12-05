@@ -1,0 +1,11 @@
+#!/bin/bash
+
+## ssh config
+if [[ ! -d ~/.ssh ]]; then
+  mkdir -p ~/.ssh
+fi
+if [[ -f ~/.ssh/config ]]; then
+  mv ~/.ssh/config ~/.ssh/config.orig
+fi
+cp ./ssh_config ~/.ssh/config
+
