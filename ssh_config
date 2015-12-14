@@ -23,23 +23,26 @@ Host sins-7
 	User pxcheng
 	HostName wrath.cs.utexas.edu
 Host stampede
-    User pxcheng
-    HostName stampede.tacc.utexas.edu
+  User pxcheng
+  HostName stampede.tacc.utexas.edu
 Host stampede1
-    User pxcheng
-    HostName login1.stampede.tacc.utexas.edu
+  User pxcheng
+  HostName login1.stampede.tacc.utexas.edu
 Host maverick
-    User pxcheng
-    HostName maverick.tacc.utexas.edu
+  User pxcheng
+  HostName maverick.tacc.utexas.edu
 Host rustler
-    User pxcheng
-    HostName rustler.tacc.utexas.edu
+  User pxcheng
+  HostName rustler.tacc.utexas.edu
 Host gerrit
-    User pxcheng
-    HostName gerrit.overt.org
+  User pxcheng
+  HostName gerrit.overt.org
 Host uvanimor-0
-    User pxcheng
-    HostName uvanimor-0.cs.utexas.edu
+  User pxcheng
+  HostName uvanimor-0.cs.utexas.edu
 Host streetpizza
-    User pxcheng
-    HostName streetpizza.cs.utexas.edu
+  User pxcheng
+  HostName streetpizza.cs.utexas.edu
+Host ling
+  User pc23445
+  HostName stats.la.utexas.edu
