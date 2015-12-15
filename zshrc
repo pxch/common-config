@@ -83,10 +83,16 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# ssh tab auto completion from .ssh/config
 zstyle -s ':completion:*:hosts' hosts _ssh_config
 [[ -r ~/.ssh/config ]] && _ssh_config+=($(cat ~/.ssh/config | sed -ne 's/Host[=\t ]//p'))
 zstyle ':completion:*:hosts' hosts $_ssh_config
 
-alias crowdsourcing='cd /Users/pengxiang/Documents/courses/inf-385t-crowdsourcing'
-alias cogsci='cd /Users/pengxiang/Documents/courses/cgs-380-cogsci'
-alias os='cd /Users/pengxiang/Documents/courses/cs-439-os'
+# personal aliases
+#alias crowdsourcing='cd /Users/pengxiang/Documents/courses/inf-385t-crowdsourcing'
+#alias cogsci='cd /Users/pengxiang/Documents/courses/cgs-380-cogsci'
+#alias os='cd /Users/pengxiang/Documents/courses/cs-439-os'
+alias nlp='cd /Users/pengxiang/Documents/nlp'
+alias datasets='cd /Users/pengxiang/Documents/nlp/datasets'
+alias papers='cd /Users/pengxiang/Documents/papers'
+
